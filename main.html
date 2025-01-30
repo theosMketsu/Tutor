@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="top-nav">
+            <h1 class="title"><a href="#"></a>Funda</h1>
+            <div class="top-bar">
+            <ul>
+                <li><a href="#Profile">Profile</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact-box">Contact</a></li>
+            </ul>
+            <button class="booking" onclick="location.href='#services'">Book a Tutor</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2><strong>Funda with the Best</strong></h2>
+                <p><em>Funda nathi(Learn with us) and excel in your studies.</em></p>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>Funda is a tutoring service that offers personalized tutoring to help students excel in their academics. 
+                    We offer services focused around Computer Science and Mathematics to help students improve their grades and achieve their academic goal at a low cost.
+                    <br><br>Our tutors are experienced and qualified to help you excel in your academics. We offer one-on-one tutoring, group tutoring, homework help, test preparation, and practicals.</p>
+            </div>
+        </section>
+
+        <section class="services">
+            <fieldset>
+                <legend>Book A Tutor</legend>
+                <div class="book-content">
+                
+                    <div class="calendar">
+                        <label for="date">Select a date:</label>
+                        <input type="week" name="date" id="date">
+                    </div>
+                    <div class="time">
+                        <label for="time">Select a time:</label>
+                        <input type="time" name="time" id="time">
+                    </div>
+                    <button class="book-btn">Book</button>
+                </div>
+            </fieldset>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-box">
+        <br>
+        <fieldset>
+            <legend>Contact Us</legend>
+            <section class="contact">
+                <div class="contact-content">
+                    
+                    <p>If you have any questions or would like to learn more about our services, please feel free to contact us.</p>
+                    <div class="input-box">
+                        <input type="text" class="form-control" placeholder="Email" autocomplete="off" required>
+                    </div>
+                    <div>
+                        <textarea class="form-control" placeholder="Message" required></textarea>
+                    </div>
+                    
+                </div>
+                <button class="cta">Contact Us</button>
+                
+            </section>
+
+            <div class="footer-content">
+                <p>&copy; 2025 Funda. All rights reserved.</p>
+            </div>
+        </fieldset>
+        </div>
+    </footer>
+
+</body>
+</html>

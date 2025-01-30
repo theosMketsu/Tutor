@@ -1,0 +1,240 @@
+@import url("vscode://file/Users/zeus/Desktop/programming/HTML/Tutor/main.css:6");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial;
+    font-size: 18px;
+}
+
+header {
+    background: rgb(191, 198, 208);
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 0px 10px;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: rgb(169, 160, 125);
+    font-style:normal;
+    font-size: 45px;
+    font-weight: 600;
+    cursor:default;
+}
+
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    font-family: 'calibri';
+    text-decoration: none;
+    display:inline-flex;
+    justify-content: center;
+    color: rgb(13, 13, 13);
+    padding: 5px 4px 2px 6px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.booking{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    margin-right: 10px;
+    margin-left: 15px;
+    background: rgb(225, 224, 224);
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+}
+
+.booking:hover{
+    background: rgb(169, 160, 125);
+    color: white;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode:hard-light;
+    padding-top: 300px;
+    padding-bottom: 10px;
+    background: url('image2.jpg') no-repeat center center/cover;
+    box-shadow: 0px 5px 10px 1px rgba(218, 235, 240, 0.846);
+}
+
+.hero-content {
+    text-align: center;
+}
+
+strong{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(169, 160, 125);
+    font-family:'Playfair Display', serif;
+    font-style: italic;
+}
+
+em{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(169, 160, 125);
+    font-family:'Playfair Display', serif;
+    font-style: italic;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 250px 10px 250px;
+}
+.about h2 {
+    padding-bottom: 15px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.services {
+    display: flex;
+    justify-content:left;
+    align-items:normal;
+    padding-top: 50px;
+    margin-left: 125px;
+    border: black;
+    font-weight: bold;
+}
+
+.services fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-color: black;
+    border-radius: 10px;
+    width: 90%;
+    height: 20vh;
+}
+.services legend {
+    margin-left: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+.book-content {
+    margin-left: 25px;
+    padding-left: 24;
+}
+.calender {
+    padding: 25px 50px 10px 50px;
+    position: absolute;
+    top: 50%;
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.book-btn {
+    align-self: flex-end;
+    background: rgb(169, 160, 125);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.book-btn:hover {
+    background: rgb(225, 224, 224);
+    color: black;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+footer {
+    margin-top: 25px;
+    background: rgb(191, 198, 208);
+}
+
+.contact-box fieldset {
+    width: 98%;
+    height: 100%;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.contact-box legend {
+    margin-left: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.contact {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.contact input {
+    width: 90%;
+    height: 30px;
+    font-size: 15px;
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact textarea {
+    width: 90%;
+    height: 150px;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    background: rgb(169, 160, 125);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact button:hover {
+    background: rgb(225, 224, 224);
+    color: black;
+    font-size: 15px;
+    transition: 0.3s;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Funda</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+
+<body>
+    <header>
+        <nav class="top-nav">
+            <h1 class="title"><a href="#"></a>Funda</h1>
+            <div class="top-bar">
+            <ul>
+                <li><a href="#Profile">Profile</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact-box">Contact</a></li>
+            </ul>
+            <button class="booking" onclick="location.href='#services'">Register</button>
+            </div>
+        </nav>
+    </header>
+
+    
+
+    <main>
+        <div class="reg-form">
+            <h1>Sign up</h1>
+            <form action="register.php" method="POST">
+                <div class="input-name">
+                    <input type="text" class="input-field" placeholder="name" autocomplete="off" required>
+                </div>
+                
+                <div class="input-email">
+                    <input type="text" class="input-field" placeholder="Email" autocomplete="off" required>
+                </div>
+                
+                <div class="input-su">
+                    <input type="text" class="input-field" placeholder="Student Number" autocomplete="off" required>
+                </div>
+                
+                <div class="input-box">
+                    <input type="text" class="input-field" placeholder="Faculty" autocomplete="off" required>
+                </div>
+
+                <div class="input-radio">
+                    <p>Year of study</p>
+                    <input type="radio" name="year" id="year" value="1">
+                    <label for="1st-yr">year 1</label>
+                    <input type="radio" name="year" id="year" value="2">
+                    <label for="2nd-yr">year 2</label>
+                    <input type="radio" name="year" id="year" value="3">
+                    <label for="3rd-yr">year 3</label>
+                    <input type="radio" name="year" id="year" value="4">
+                    <label for="other">Other</label>
+                </div>
+                
+                <button type="submit" class="reg-btn">Register</button>
+            </form>
+        </>
+    </main>
+</body>
+</html>
